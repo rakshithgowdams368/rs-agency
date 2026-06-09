@@ -1,25 +1,20 @@
-'use client';
-
 import Navbar from '@/components/navbar';
 import ScrollProgress from '@/components/scroll-progress';
 import WhatsAppButton from '@/components/whatsapp-button';
 import Hero from '@/components/sections/hero';
 import DealingWith from '@/components/sections/dealing-with';
+import About from '@/components/sections/about';
+import Services from '@/components/sections/services';
+import WhyUs from '@/components/sections/why-us';
+import Journey from '@/components/sections/journey';
+import Network from '@/components/sections/network';
+import Leadership from '@/components/sections/leadership';
+import Gallery from '@/components/sections/gallery';
+import PartnersSection from '@/components/sections/partners-section';
+import Testimonials from '@/components/sections/testimonials';
+import FAQ from '@/components/sections/faq';
+import Contact from '@/components/sections/contact';
 import Footer from '@/components/sections/footer';
-import { LazySection } from '@/components/lazy-section';
-import {
-  AboutSkeleton,
-  ServicesSkeleton,
-  WhyUsSkeleton,
-  JourneySkeleton,
-  NetworkSkeleton,
-  LeadershipSkeleton,
-  GallerySkeleton,
-  PartnersSkeleton,
-  TestimonialsSkeleton,
-  FAQSkeleton,
-  ContactSkeleton,
-} from '@/components/skeletons';
 
 export default function Home() {
   return (
@@ -29,51 +24,17 @@ export default function Home() {
       <main>
         <Hero />
         <DealingWith />
-
-        <LazySection
-          fallback={<AboutSkeleton />}
-          importFn={() => import('@/components/sections/about')}
-        />
-        <LazySection
-          fallback={<ServicesSkeleton />}
-          importFn={() => import('@/components/sections/services')}
-        />
-        <LazySection
-          fallback={<WhyUsSkeleton />}
-          importFn={() => import('@/components/sections/why-us')}
-        />
-        <LazySection
-          fallback={<JourneySkeleton />}
-          importFn={() => import('@/components/sections/journey')}
-        />
-        <LazySection
-          fallback={<NetworkSkeleton />}
-          importFn={() => import('@/components/sections/network')}
-        />
-        <LazySection
-          fallback={<LeadershipSkeleton />}
-          importFn={() => import('@/components/sections/leadership')}
-        />
-        <LazySection
-          fallback={<GallerySkeleton />}
-          importFn={() => import('@/components/sections/gallery')}
-        />
-        <LazySection
-          fallback={<PartnersSkeleton />}
-          importFn={() => import('@/components/sections/partners-section')}
-        />
-        <LazySection
-          fallback={<TestimonialsSkeleton />}
-          importFn={() => import('@/components/sections/testimonials')}
-        />
-        <LazySection
-          fallback={<FAQSkeleton />}
-          importFn={() => import('@/components/sections/faq')}
-        />
-        <LazySection
-          fallback={<ContactSkeleton />}
-          importFn={() => import('@/components/sections/contact')}
-        />
+        <About />
+        <Services />
+        <WhyUs />
+        <Journey />
+        <Network />
+        <Leadership />
+        <Gallery />
+        <PartnersSection />
+        <Testimonials />
+        <FAQ />
+        <Contact />
       </main>
       <Footer />
       <WhatsAppButton />
