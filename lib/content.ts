@@ -15,6 +15,13 @@ export const heroHighlights = [
   'Vaccines',
 ];
 
+export const stats = [
+  { value: '30,000+', label: 'SKUs' },
+  { value: '500+', label: 'Manufacturers & Brands' },
+  { value: '99.6%+', label: 'Fulfilment Rate' },
+  { value: '25+', label: 'Years Experience' },
+];
+
 export const aboutParagraphs = [
   'RS Medical Agency is a trusted name in healthcare distribution, connecting manufacturers, pharmacies, hospitals, and institutions across the region and beyond. With deep industry relationships and a commitment to quality, we deliver reliability at every step.',
   'We go the extra mile for every partner \u2014 because in healthcare, trust isn\'t assumed, it\'s earned.',
