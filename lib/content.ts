@@ -27,12 +27,6 @@ export const aboutParagraphs = [
   'We go the extra mile for every partner \u2014 because in healthcare, trust isn\'t assumed, it\'s earned.',
 ];
 
-export const stats = [
-  { value: '30,000+', label: 'SKUs' },
-  { value: '500+', label: 'Manufacturers & Brands' },
-  { value: '99.6%+', label: 'Fulfilment Rate' },
-  { value: '25+', label: 'Years Experience' },
-];
 
 export const services = [
   {
