@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
-import { MapPin, Mail, Phone } from 'lucide-react';
+import { MapPin, Phone } from 'lucide-react';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { toast } from 'sonner';
 import { z } from 'zod';
@@ -107,14 +107,6 @@ export default function Contact() {
                   <MapPin size={18} />
                 </div>
                 <p className="text-ink-soft text-sm leading-relaxed">{contactInfo.address}</p>
-              </div>
-              <div className="flex gap-4 items-center">
-                <div className="w-10 h-10 bg-bg-soft rounded-xl flex items-center justify-center text-brand-blue shrink-0">
-                  <Mail size={18} />
-                </div>
-                <a href={`mailto:${contactInfo.email}`} className="text-ink-soft text-sm hover:text-brand-blue transition-colors">
-                  {contactInfo.email}
-                </a>
               </div>
               <div className="flex gap-4 items-center">
                 <div className="w-10 h-10 bg-bg-soft rounded-xl flex items-center justify-center text-brand-blue shrink-0">
