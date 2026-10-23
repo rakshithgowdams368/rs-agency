@@ -216,7 +216,6 @@ export const faqItems = [
 
 export const contactInfo = {
   address: 'AVK College Road, Indian Bank Backside, Hanuman Building, 3rd Floor, Hassan 573201, Karnataka, India',
-  email: 'rakesh@rsmedicalagency.com',
   phone: '+91 63601 07599',
   whatsapp: 'https://wa.me/916360107599',
   social: {
