@@ -224,7 +224,6 @@ const speakable = {
 const allSchemas = [
   organization,
   localBusiness,
-  founder,
   website,
   faqPage,
   breadcrumbHome,
