@@ -95,7 +95,6 @@ const localBusiness = {
     longitude: 76.0962,
   },
   telephone: '+91-63601-07599',
-  email: 'rakesh@rsmedicalagency.com',
   priceRange: 'Wholesale/B2B',
   openingHoursSpecification: [
     {
