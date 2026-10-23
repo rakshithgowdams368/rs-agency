@@ -22,15 +22,9 @@ export default function About() {
       <div className="container-main">
         <motion.div {...anim}>
           <p className="eyebrow">About Us</p>
-          <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 mb-8">
-            <h2 className="section-h2 !mb-0 flex-1">
-              Healthcare partners you can trust.
-            </h2>
-            <div className="inline-flex w-fit shrink-0 items-center gap-3 rounded-2xl bg-brand-green px-5 py-4 text-white shadow-lg">
-              <span className="text-4xl font-extrabold leading-none">25+</span>
-              <span className="max-w-[150px] text-sm font-semibold leading-tight">Years of Experience</span>
-            </div>
-          </div>
+          <h2 className="section-h2 mb-8">
+            Healthcare partners you can trust.
+          </h2>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
