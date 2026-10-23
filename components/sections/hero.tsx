@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
-import { heroHighlights } from '@/lib/content';
+import { heroHighlights, stats } from '@/lib/content';
 import { SITE_TAGLINE } from '@/lib/constants';
 
 export default function Hero() {
@@ -88,6 +88,24 @@ export default function Hero() {
             >
               Explore Services
             </a>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: dur, delay: reducedMotion ? 0 : 0.75 }}
+            className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 max-w-3xl"
+            aria-label="RS Medical Agency at a glance"
+          >
+            {stats.map((stat) => (
+              <div
+                key={stat.label}
+                className="rounded-xl border border-white/20 bg-white/10 backdrop-blur-sm px-4 py-4 sm:px-5"
+              >
+                <p className="text-2xl sm:text-3xl font-bold text-brand-green-light">{stat.value}</p>
+                <p className="mt-1 text-xs sm:text-sm leading-snug text-white/80">{stat.label}</p>
+              </div>
+            ))}
           </motion.div>
         </div>
       </div>
