@@ -23,12 +23,16 @@ export default function About() {
         <motion.div {...anim}>
           <p className="eyebrow">About Us</p>
           <h2 className="section-h2 mb-8">
-            Healthcare partners the world has trusted for over two decades.
+            Trusted healthcare distribution backed by 25+ years of experience.
           </h2>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <motion.div {...anim} transition={{ ...anim.transition, delay: 0.15 }}>
+            <div className="inline-flex items-center gap-4 rounded-2xl border border-brand-green/20 bg-brand-green/5 px-5 py-4 mb-6">
+              <span className="text-3xl md:text-4xl font-bold text-brand-green">25+</span>
+              <span className="text-sm md:text-base font-semibold text-ink leading-snug">Years of Healthcare Distribution Experience</span>
+            </div>
             {aboutParagraphs.map((p, i) => (
               <p key={i} className="text-ink-soft leading-[1.75] mb-4 text-base md:text-lg">
                 {p}
