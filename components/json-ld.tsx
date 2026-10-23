@@ -3,7 +3,6 @@ import { faqItems, journeySteps, districts, contactInfo } from '@/lib/content';
 
 const ORG_ID = `${SITE_URL}/#organization`;
 const LOCAL_ID = `${SITE_URL}/#localbusiness`;
-const FOUNDER_ID = `${SITE_URL}/#founder`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 
 const postalAddress = {
@@ -79,7 +78,6 @@ const organization = {
       itemOffered: { '@type': 'Service', '@id': `${SITE_URL}/#service-vaccines`, name: 'Vaccine Distribution & Cold-Chain Logistics' },
     },
   ],
-  founder: { '@id': FOUNDER_ID },
 };
 
 const localBusiness = {
@@ -113,16 +111,6 @@ const localBusiness = {
   parentOrganization: { '@id': ORG_ID },
 };
 
-const founder = {
-  '@context': 'https://schema.org',
-  '@type': 'Person',
-  '@id': FOUNDER_ID,
-  name: 'TODO: Founder Full Legal Name',
-  // TODO: Add credentials, e.g. jobTitle: 'Founder & Managing Director'
-  jobTitle: 'Founder',
-  worksFor: { '@id': ORG_ID },
-  description: 'Founder of RS Medical Agency with over 25 years of experience in healthcare distribution.',
-};
 
 const website = {
   '@context': 'https://schema.org',
