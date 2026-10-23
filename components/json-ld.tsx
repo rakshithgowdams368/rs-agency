@@ -18,7 +18,6 @@ const contactPoint = {
   '@type': 'ContactPoint',
   telephone: '+91-63601-07599',
   contactType: 'sales',
-  email: 'rakesh@rsmedicalagency.com',
   availableLanguage: ['English', 'Hindi', 'Kannada'],
 };
 
