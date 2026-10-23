@@ -4,6 +4,7 @@ import WhatsAppButton from '@/components/whatsapp-button';
 import Hero from '@/components/sections/hero';
 import DealingWith from '@/components/sections/dealing-with';
 import About from '@/components/sections/about';
+import Leadership from '@/components/sections/leadership';
 import Services from '@/components/sections/services';
 import WhyUs from '@/components/sections/why-us';
 import Journey from '@/components/sections/journey';
@@ -24,6 +25,7 @@ export default function Home() {
         <Hero />
         <DealingWith />
         <About />
+        <Leadership />
         <Services />
         <WhyUs />
         <Journey />
