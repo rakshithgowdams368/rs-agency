@@ -75,7 +75,7 @@ export default function Hero() {
             transition={{ duration: dur, delay: reducedMotion ? 0 : 0.5 }}
             className="hero-summary text-lg sm:text-xl text-white/80 leading-relaxed mb-12 max-w-2xl"
           >
-            RS Medical Agency is a B2B pharmaceutical distributor headquartered in Hassan, Karnataka, supplying 30,000+ SKUs from 500+ manufacturers to licensed pharmacies, hospitals, and institutions across India and worldwide.
+            RS Medical Agency is a B2B pharmaceutical distributor headquartered in Bengaluru, with branches in Hassan and Mysore, Karnataka, supplying 30,000+ SKUs from 500+ manufacturers to licensed pharmacies, hospitals, and institutions across India and worldwide.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
