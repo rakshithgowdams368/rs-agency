@@ -27,7 +27,6 @@ export const aboutParagraphs = [
   'We go the extra mile for every partner \u2014 because in healthcare, trust isn\'t assumed, it\'s earned.',
 ];
 
-
 export const services = [
   {
     title: 'Seamless Delivery',
@@ -99,7 +98,6 @@ export const districts = [
   'Tumakuru', 'Udupi', 'Uttara Kannada', 'Vijayanagara', 'Vijayapura', 'Yadgir',
 ];
 
-export const leadershipBio = `With over 25+ years of dedicated experience in the healthcare distribution industry, our founder built RS Medical Agency on a foundation of integrity, reliability, and genuine partnership. We believe ethical leadership shapes ethical operations \u2014 and that the partners and people we serve deserve nothing less. From regional pharmacies to international hospitals, every relationship is treated with the same care.`;
 
 export const galleryProducts = [
   { name: 'Oncology medicine packaging distributed by RS Medical Agency, Hassan', image: '/gallery/WhatsApp_Image_2026-06-03_at_11.18.24.jpeg' },
@@ -231,7 +229,6 @@ export const footerQuickLinks = [
   { label: 'About', href: '#about' },
   { label: 'Services', href: '#services' },
   { label: 'Network', href: '#network' },
-  { label: 'Leadership', href: '#leadership' },
 ];
 
 export const footerCompanyLinks = [
