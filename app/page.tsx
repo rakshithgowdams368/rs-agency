@@ -8,7 +8,6 @@ import Services from '@/components/sections/services';
 import WhyUs from '@/components/sections/why-us';
 import Journey from '@/components/sections/journey';
 import Network from '@/components/sections/network';
-import Leadership from '@/components/sections/leadership';
 import Gallery from '@/components/sections/gallery';
 import PartnersSection from '@/components/sections/partners-section';
 import Testimonials from '@/components/sections/testimonials';
@@ -29,7 +28,6 @@ export default function Home() {
         <WhyUs />
         <Journey />
         <Network />
-        <Leadership />
         <Gallery />
         <PartnersSection />
         <Testimonials />
